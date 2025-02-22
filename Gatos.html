@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gatos</title>
+    <style>
+        html {
+            overflow-y: scroll;
+        }
+
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 0;
+            padding: 1px;
+            background-image: url('gatos.jpg');
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;      
+            border-radius: 16px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+            overflow-y: hidden;
+        }
+        
+        #container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 16px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border: 5px solid blue;
+        }
+
+        #titulo {
+            display: block;
+            text-align: center;
+            font-size: 24px;
+            margin-top: 20px;
+            font-size: 100px;
+        }
+
+        #imggato {
+            margin: 100 auto;
+            width: 500px; 
+            height: 250px;
+            border-radius: 16px; 
+            border: 3px solid blue;
+        }
+
+        #imggato:hover {
+            transform: scale(1.05);
+            transition: transform 0.5s ease-in-out;
+        }
+        
+        #nombregato {
+            text-align: left;
+            font-size: 32px;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+        #nombregato:hover {
+            transform: scale(1.2);
+            transition: transform 0.5s ease-in-out;
+        }
+
+        #txtgato {
+            text-align: right;
+            font-size: 20px;
+            margin-top: 20px;
+            margin-left: auto;
+            max-width: 300px;
+            word-wrap: break-word;
+            white-space: normal;
+        }
+        
+
+        input[type="text"] {
+            padding: 8px;
+            border-radius: 4px;
+            border: 1px solid gray;
+        }
+
+        img {
+            max-width: 800px;
+            height: auto;
+        }
+
+        #cont {
+            display: inline-block;
+            overflow: hidden;
+        }
+        
+        #cont:hover img {
+            transform: scale(1.2);
+            transition: transform 0.5s ease-in-out;
+        }
+        
+        #desperdiciodetiempo {
+            max-width: 800px;
+            margin: 500000px auto 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 16px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            height: auto;
+            border: 5px solid blue;
+            text-align: center;
+        }
+        
+        #ja {
+            max-width: 800px;
+            padding: 20px;
+            font-size: 24px;
+            color: black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        
+
+    </style>
+    <label id="titulo" for="titulo" style="color: blue; text-shadow: 2px 2px 4px white, -2px -2px 4px white, 2px -2px 4px white, -2px 2px 4px white;">Cats.Exe</label>
+</head>
+<body>
+    <div id="container">
+        <img src="dory2.jpg" id="imggato">
+        <label id="nombregato" style="color:blue">Dory</label>
+        <label id="txtgato">C H O N K ,  W I D E ,  and pretty cat.</label>
+    </div>
+    <div id="container">
+        <img src="muu.jpg" id="imggato">
+        <label id="nombregato" style="color:blue">Muu</label>
+        <label id="txtgato">She is just sittin' there, but sometimes gets too clingy.</label>
+    </div>
+    <div id="container">
+        <img src="catvader.jpg" id="imggato">
+        <label id="nombregato" style="color:blue">Cat Vader</label>
+        <label id="txtgato">Very chill, even if a 4 month kitten drives him crazy sometimes.</label>
+    </div>
+    <div id="container">
+        <img src="lucky.jpg" id="imggato">
+        <label id="nombregato" style="color:blue">Lucky</label>
+        <label id="txtgato">The sun will go out before this kitten stops being annoying when trying to sleep.</label>
+    </div>
+    <div id="container">
+        <img src="mothony.jpg" id="imggato">
+        <label id="nombregato" style="color:blue">Mothony</label>
+        <label id="txtgato">Too clingy, but only with one person. Otherwise, she is just sittin' there.</label>
+    </div>
+    <div id="container">
+        <img src="blaze.jpg" id="imggato">
+        <label id="nombregato" style="color:blue">Blaze</label>
+        <label id="txtgato">Á̵̡̛̘͉̮̺̭̖͖̠͉͚̣̤̮̜̺̐̓̾͊ ̶̢̤̪̯̱̹̤̺̻̗͕͓̬͖͍͒̀͠͠Ņ̷̧̺̹͓̣͖̙̼̣̜̻̟̹̾̆͜ͅ ̶͍͙͙̞̪͖̙͖̭̍̒̎͊̀͌͑̚͝͠͠ͅX̶̺͓̖̬̣̲̖̫̹͚͍̆̽̓͆̋͂̓͊͑́̂̏̏͜͜ ̵̧͇̭̪̼̻͓̣͚̦͂̈́̉̀̈̄͂̈̊̒͌̋͌̿͘I̶̢̳͓̲͍̞͓̝̪̮̘̻̮̎̅̓̈́̎̐̆̌̈́̄͂͐̕͜͠ ̴̡̛̲̳͓͙͕̺͖̟͊̒̾̔͑̈̑̚͜͝E̴͖̲͇̺͓̯̝̩͇̩̤̦͔͛͋̈̾ ̵̩̭̈̎͌̅͗͐̎̿̈́̋͛̈́́͑͂̀̕T̶͙͔͖̝̣̠̗͚̝͇̥̺͇́̓̄̏́͋̐̆̆̿̏́̓̓̈́͜͝͠ ̴̱͕̥̘͍̞͚̾̎̽͐̓̈̔͒̔̚͜Ỷ̸̛̲͇̗̙͙̟̣̠̙͉͔̝̩̊̃̅̆̑̄̀̚</label>
+    </div>
+    <div id="container">
+        <img src="jag.jpg" id="imggato">
+        <label id="nombregato" style="color:blue">Spotted Big Cat</label>
+        <label id="txtgato">Very chill killing machine.</label>
+    </div>
+    <div id="container">
+        <img src="tiger2.jpg" id="imggato">
+        <label id="nombregato" style="color:blue">Steroid White Garfield</label>
+        <label id="txtgato">It's 3 times larger than you.</label>
+    </div>
+    <div id="container">
+        <img src="ber.jpg" id="imggato">
+        <label id="nombregato" style="color:blue">Ber</label>
+        <label id="txtgato">That ain't even a cat, are you stupid?</label>
+    </div>
+    <div id="desperdiciodetiempo">
+        <div id="ja">Did you really take the time to scroll down here? You have a lot of spare time...</div>
+        <div id="ja">
+            <a href="https://youtu.be/BT9h5ifR1tY?si=OW1hiAWe-OTwodi7" target="_blank" >
+                You deserve a reward for your dedication.
+            </a>
+        </div>
+    </div>
+</body>
+</html>
